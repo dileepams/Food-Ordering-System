@@ -1,0 +1,8 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <php>
+        <server name="DB_HOST" value="localhost"/>
+        <server name="DB_USER" value="testuser"/>
+        <server name="DB_PASS" value="password"/>
+        <server name="DB_NAME" value="fos_db"/>
+    </php>
+</phpunit>
